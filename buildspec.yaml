@@ -4,6 +4,7 @@ phases:
 
   pre_build:
     commands:
+      - echo " hello this is build by parag"
       - echo "Logging in to Docker Hub..."
       - echo "Paragpatil@01" | docker login --username "paragpatil01" --password-stdin
   build:
